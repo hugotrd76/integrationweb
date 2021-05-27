@@ -1,0 +1,13 @@
+html{
+    background-color: pink;
+
+    font-family : comic sans ms;
+}
+.titre{
+    color: blue;
+}
+
+.rond {
+    border-radius:20px;
+    }
+
