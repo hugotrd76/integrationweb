@@ -4,14 +4,26 @@
 <head>
   <meta charset="utf-8">
 
+  <script>
+    function changeColor(color) { 
+        document.body.style.background = color; 
+    }
+</script>
+
   <link rel="stylesheet" href="styles.css">
   
 </head>
 
-<body>
+<body><body style = "text-align:center;"></body>
   <h1 class="titre">Les bonnes choses</h1>
 
   <img src="3-LMGC—18AVRIL-13.jpg" class="rond">
+
+  <p><b>Cliquez sur le bouton de votre choix pour changer la couleur du background.</b></p> 
+        <button onclick = "changeColor('blue');">Bleu</button>
+        <button onclick = "changeColor('green');">Vert</button> 
+        <button onclick = "changeColor('red');">Rouge</button>
+        <button onclick = "changeColor('yellow');">Jaune</button>
 
   <p>Voici une liste de bonnes choses :</p>
 
